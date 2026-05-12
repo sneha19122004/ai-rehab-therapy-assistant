@@ -6,16 +6,14 @@ Place your exercise reference `.mp4` files here.
 
 | Filename | Exercise |
 |----------|----------|
-| `A1.mp4` | Shoulder Internal Rotation (Right) |
-| `A2.mp4` | Shoulder Internal Rotation (Left) |
-| `A3.mp4` | Shoulder Flexion — elbow at 90° |
-| `A4.mp4` | Shoulder Flexion — elbow at 120° |
-| `EL.mp4` | Shoulder Flexion at 90° |
-| `EL2.mp4` | Shoulder Flexion beyond 90° |
-| `EL3.mp4` | Reaching Exercise |
-| `WI1.mp4` | Finger Flexion & Extension / Elbow Flexion |
-
-After placing files here, update `VIDEO_PATHS` in `src/config.py` to point to these paths.
-
-> These files are excluded from git tracking via `.gitignore` due to file size.
-> Consider using [Git LFS](https://git-lfs.com/) if you need to version large video files.
+| File | Exercise |
+|------|----------|
+| `Shoulder Internal Rotation (R).mp4` | Shoulder Internal Rotation (R) |
+| `Shoulder Internal Rotation (L).mp4` | Shoulder Internal Rotation (L) |
+| `Shoulder Flexion with elbow at 90.mp4` | Shoulder Flexion with elbow at 90° |
+| `Shoulder Flexion with elbow at 120.mp4` | Shoulder Flexion with elbow at 120° |
+| `Shoulder Flexion at 90.mp4` | Shoulder Flexion at 90° |
+| `Shoulder Flexion beyond 90.mp4` | Shoulder Flexion beyond 90° |
+| `Reaching Exercise.mp4` | Reaching Exercise |
+| `Finger Flexion & Extension.mp4` | Finger Flexion & Extension|
+| `Elbow Flexion & Extension.mp4` | Elbow Flexion & Extension|
