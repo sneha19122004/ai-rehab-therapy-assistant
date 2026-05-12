@@ -70,7 +70,7 @@ COLORS = {
     'raw_angle': (255, 255, 0),    # Yellow
     'refined_angle': (0, 255, 255) # Cyan
 }
-VIDEO_PATHS = [r'C:\Users\sneha\Downloads\A1.mp4', r'C:\Users\sneha\Downloads\A2.mp4', r'C:\Users\sneha\Downloads\A3.mp4',r'C:\Users\sneha\Downloads\A4.mp4',r'C:\Users\sneha\Downloads\EL.mp4',r'C:\Users\sneha\Downloads\EL2.mp4',r'C:\Users\sneha\Downloads\EL3.mp4',r'C:\Users\sneha\Downloads\WI1.mp4']
+VIDEO_PATHS = [r'C:\Users\sneha\Downloads\Shoulder Internal Rotation (R).mp4', r'C:\Users\sneha\Downloads\Shoulder Internal Rotation (L).mp4', r'C:\Users\sneha\Downloads\Shoulder Flexion with elbow at 90.mp4',r'C:\Users\sneha\Downloads\Shoulder Flexion with elbow at 120.mp4',r'C:\Users\sneha\Downloads\Shoulder flexion at 90.mp4',r'C:\Users\sneha\Downloads\Shoulder flexion beyond 90.mp4',r'C:\Users\sneha\Downloads\Reaching Exercise.mp4',r'C:\Users\sneha\Downloads\Finger Flexion & Extension.mp4',r'C:\Users\sneha\Downloads\Elbow flexion and extension.mp4']
 VIDEO_DEMO_DURATION = 5
 TRIAL_DURATION = 15
 FEEDBACK_DISPLAY_DURATION = 5
