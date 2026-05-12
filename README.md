@@ -1,10 +1,10 @@
-# 🏥 AI Rehab Therapy Assistant
+# AI Rehab Therapy Assistant
 
 An AI-powered physiotherapy rehabilitation assistant that uses **MediaPipe** pose and hand landmark detection to guide users through exercises, measure their Range of Motion (ROM), and track rep counts with real-time accuracy feedback.
 
 ---
 
-## 📸 System Overview
+## System Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -21,7 +21,7 @@ An AI-powered physiotherapy rehabilitation assistant that uses **MediaPipe** pos
 
 ---
 
-## ✨ Features
+## Features
 
 - **Real-time Pose & Hand Tracking** using MediaPipe Landmarker Tasks API
 - **Reference Video ROM Extraction** — automatically determines ideal ROM from demonstration videos
@@ -36,7 +36,7 @@ An AI-powered physiotherapy rehabilitation assistant that uses **MediaPipe** pos
 
 ---
 
-## 🎥 Reference Exercise Videos
+## Reference Exercise Videos
 
 The system ships with 8 reference exercise videos used to extract ideal ROM:
 
@@ -55,7 +55,7 @@ The system ships with 8 reference exercise videos used to extract ideal ROM:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ai-rehab-therapy-assistant/
@@ -100,7 +100,7 @@ ai-rehab-therapy-assistant/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 
@@ -162,7 +162,7 @@ python src/setup_indexes.py
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Main Rehab Session
 
@@ -198,7 +198,7 @@ python src/comprehensive_calibration.py
 
 ---
 
-## 🔑 Joint Codes
+## Joint Codes
 
 | Code | Joint | Type |
 |------|-------|------|
@@ -213,7 +213,7 @@ python src/comprehensive_calibration.py
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Phase 1 — Demo
 The system plays a reference video demonstrating the correct exercise form. ROM is extracted from the video using MediaPipe's VIDEO mode with temporal smoothing.
@@ -236,7 +236,7 @@ An OpenCV scoreboard displays reps, duration, ROM range, and accuracy per exerci
 
 ---
 
-## 🔌 IoT / Node-RED Integration
+## IoT / Node-RED Integration
 
 Rep counts are broadcast over UDP on `127.0.0.1:5006` in the format:
 
@@ -249,7 +249,7 @@ A `udp_receiver.py` is also included for receiving and storing IoT sensor data (
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 See `requirements.txt`. Key packages:
 
@@ -264,7 +264,7 @@ See `requirements.txt`. Key packages:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] GUI configuration screen (replace CLI input)
 - [ ] Web dashboard for session history (Flask/FastAPI)
@@ -273,13 +273,6 @@ See `requirements.txt`. Key packages:
 - [ ] Real-time accuracy graph during exercise
 
 ---
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
-
----
-
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
