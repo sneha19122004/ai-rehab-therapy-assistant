@@ -42,18 +42,15 @@ The system ships with 8 reference exercise videos used to extract ideal ROM:
 
 | File | Exercise | Joint Code |
 |------|----------|------------|
-| `A1.mp4` | Shoulder Internal Rotation (R) | `R-SH` |
-| `A2.mp4` | Shoulder Internal Rotation (L) | `L-SH` |
-| `A3.mp4` | Shoulder Flexion with elbow at 90° | `R-SH` / `L-SH` |
-| `A4.mp4` | Shoulder Flexion with elbow at 120° | `R-SH` / `L-SH` |
-| `EL.mp4` | Shoulder Flexion at 90° | `R-SH` / `L-SH` |
-| `EL2.mp4` | Shoulder Flexion beyond 90° | `R-SH` / `L-SH` |
-| `EL3.mp4` | Reaching Exercise | `R-EL` / `L-EL` |
-| `WI1.mp4` | Finger Flexion & Extension / Elbow Flexion | `R-WI`, `R-FINGERS` |
-
-> **Note:** Place your video files in the `reference_videos/` folder and update `VIDEO_PATHS` in `src/config.py`.
-
----
+| `Shoulder Internal Rotation (R).mp4` | Shoulder Internal Rotation (R) | `R-SH` |
+| `Shoulder Internal Rotation (L).mp4` | Shoulder Internal Rotation (L) | `L-SH` |
+| `Shoulder Flexion with elbow at 90.mp4` | Shoulder Flexion with elbow at 90° | `R-SH` / `L-SH` |
+| `Shoulder Flexion with elbow at 120.mp4` | Shoulder Flexion with elbow at 120° | `R-SH` / `L-SH` |
+| `Shoulder Flexion at 90.mp4` | Shoulder Flexion at 90° | `R-SH` / `L-SH` |
+| `Shoulder Flexion beyond 90.mp4` | Shoulder Flexion beyond 90° | `R-SH` / `L-SH` |
+| `Reaching Exercise.mp4` | Reaching Exercise | `R-EL` / `L-EL` |
+| `Finger Flexion & Extension.mp4` | Finger Flexion & Extension| `R-WI`, `R-FINGERS` |
+| `Elbow Flexion & Extension.mp4` | Elbow Flexion & Extension| `R-EL`, `L-EL` |
 
 ## Project Structure
 
