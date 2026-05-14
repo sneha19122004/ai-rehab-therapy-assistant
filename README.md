@@ -247,6 +247,7 @@ Wrist exercise with a demo video where the video's ROM is detected first and com
 <img src="https://img.shields.io/badge/%20Watch%20Demo-Wrist%20Excercise-green?style=for-the-badge" alt="Watch Working Robot Demo"/>
 </a>
 </p>
+
 ---
 
 ## IoT / Node-RED Integration
