@@ -232,6 +232,22 @@ accuracy_pct = min(100, (user_ROM / reference_ROM) × 100)
 An OpenCV scoreboard displays reps, duration, ROM range, and accuracy per exercise. Data is bulk-inserted into MongoDB.
 
 ---
+## Working Demo Video
+
+Simultaneously record the right and left fingers when performing the exercise
+<p align="center">
+<a href="https://github.com/sneha19122004/ai-rehab-therapy-assistant/blob/main/finger-excercise.mp4">
+<img src="https://img.shields.io/badge/%20Watch%20Demo-Finger%20Excercise-green?style=for-the-badge" alt="Watch Working Robot Demo"/>
+</a>
+</p>
+
+Wrist exercise with a demo video where the video's ROM is detected first and compared with the user's ROM
+<p align="center">
+<a href="https://github.com/sneha19122004/ai-rehab-therapy-assistant/blob/main/wrist-excercise.mp4">
+<img src="https://img.shields.io/badge/%20Watch%20Demo-Wrist%20Excercise-green?style=for-the-badge" alt="Watch Working Robot Demo"/>
+</a>
+</p>
+---
 
 ## IoT / Node-RED Integration
 
